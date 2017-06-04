@@ -24,7 +24,17 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
+				<section id="Home">
+					<section id="home1">
+					<h3 style="color: bisque">Welcome to XinoAssassin's Blog</h3>
+						<p style="font-family: 'Source Serif Pro'; font-size: 20px">The blog choose slides to present content.</p>
+					    <p style="font-family: 'Source Sans Pro'; font-size: 16px">Slide Down to show my information<br/> Right to see blogs</p>
+						<a style="font-family: 'Source Sans Pro'; font-size: 16px"; href="javascript:Reveal.toggleOverview();">Click to contents</a>
+					</section>
+					<section id="home2">
+						<h3>my information</h3>
+					</section>
+				</section>
 				<section>Slide 2</section>
 			</div>
 		</div>
@@ -37,6 +47,10 @@
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				mouseWheel: true,
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
